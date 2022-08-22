@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffeedf;
+    color: #145434;
+
+}
+
+.menuicon {
+    width: 35px;
+    height: 5px;
+    background-color: #145434;
+    margin-top: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.r1, .r2, .r3, .r4 {
+    height: 240px;
+    width: 400px;
+    background-color:  #145434;;
+    color: #ffeedf;
+    font-size: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    border: none;
+    margin: 20px;
+    padding: 50px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    margin: 10px;
+    /*flex-wrap: wrap;*/
+    
+}
+
+.top, .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.hr {
+    height: auto;
+    color:#145434;
+}
+
+.hr_r {
+    /* weight: */
+    width: 2px;
+    color: #ffeedf;
+}
+
+p {
+    font-size: 14px;
+    color: #ffeedf;
+    font-weight: lighter;
+}
+
+.BestBeers {
+    margin: 20px;
+    font-size: 24px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bolder;
+    
+}
